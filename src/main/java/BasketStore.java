@@ -26,7 +26,6 @@ public class BasketStore implements Basket{
             if (value.getProduct().equals(product)) {
                 value.setProduct(product);
                 value.setQuantity(quantity);
-                return;
             }
         }
     }
